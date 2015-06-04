@@ -1,0 +1,39 @@
+body {
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+}
+
+.form-control:focus{
+	border-color: #8cc442 !important;
+	
+
+}
+
+.btn-primary{
+	background-image: linear-gradient(to bottom, #8cc442 0%, #9bce58 100%) !important;
+	border-color: #9bce58 !important;
+}
+
+.btn-primary:hover, .btn-primary:focus{
+	background-color: #9bce58;
+}
+
+.navH > ul{
+	/* margin-top: 5px;
+	margin-right: 2px;
+	margin-left: 2px;
+	*/
+
+}
+
+.navH > ul > li > a{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.form-control{
+	margin-bottom: 1px;
+}
