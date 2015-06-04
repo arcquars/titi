@@ -480,8 +480,8 @@ class Utils {
             return $dev;
         } else {
             $json = new Services_JSON();
-            $output = $json->encode($dev);
-            echo Utils::encode_this($output);
+            echo $output = $json->encode($dev);
+//            echo Utils::encode_this($output);
             exit;
         }
     }
